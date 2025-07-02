@@ -70,6 +70,7 @@ if DEBUG:
 
 CSRF_TRUSTED_ORIGINS = [
     'https://sellaiart.up.railway.app',
+    'https://sellaiart.onrender.com',
 ]
 
 
