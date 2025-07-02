@@ -58,7 +58,8 @@ SECRET_KEY = config("DJANGO_SECRET_KEY")
 DEBUG = config("DJANGO_DEBUG", cast=bool)
 
 ALLOWED_HOSTS = [
-    ".railway.app"
+    ".railway.app",
+    ".onrender.com"
 ]
 
 if DEBUG:
