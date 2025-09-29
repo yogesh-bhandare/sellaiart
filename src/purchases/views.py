@@ -28,7 +28,7 @@ def purchase_start_view(request):
     cancel_path = reverse("purchases:stopped")
     success_url = f"{BASE_ENDPOINT}{success_path}"
     cancel_url = f"{BASE_ENDPOINT}{cancel_path}"
-    print(success_url, cancel_url)
+
     checkout_session = stripe.checkout.Session.create(
         line_items = [
             {
